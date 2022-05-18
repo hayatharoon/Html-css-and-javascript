@@ -1,6 +1,7 @@
 /*---------------------- CSS Variables --------------*/
 :root {
   --primary-color: #e50914;
+  --dark-color: #141414;
 }
 
 /* ---------------------Global Styling -------------- */
@@ -59,7 +60,7 @@ img {
   height: 100%;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
-  box-shadow: inset 220px 110px 250px #000;
+  box-shadow: inset 150px 100px 250px #000, inset -150px -100px 250px #000;
 }
 
 .showcase-top {
@@ -73,7 +74,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
 }
 
 .showcase-top a {
@@ -99,7 +100,7 @@ img {
   font-weight: 600;
   font-size: 4rem;
   line-height: 1;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.1rem;
 }
 
 .showcase-content p {
@@ -107,12 +108,151 @@ img {
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.1;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   color: #fff;
 }
 
-/* ------------------------ showcase styling End --------------------- */
+/* --------------------------- Tab Styling ---------------------------- */
 
+.tab {
+  background: var(--dark-color);
+  padding-top: 1rem;
+  border-bottom: 3px solid #3d3d3d;
+}
+.tab .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.container {
+  max-width: 70%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 1.7rem;
+}
+.tab p {
+  font-size: 1.1rem;
+  padding-top: 0.4rem;
+}
+.tab .container > div {
+  padding: 1.5rem 0;
+}
+.tab .container > div:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.tab-border {
+  border-bottom: var(--primary-color) 4px solid;
+}
+/* --------------------- tab-1-content styling --------------------- */
+.tab-content {
+  padding: 3rem 0;
+  background: #000;
+  color: #fff;
+}
+#tab-1-content .tab-1-content-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+/* --------------------- tab-2-content styling --------------------- */
+
+#tab-2-content .tab-2-content-top {
+  display: grid;
+  grid-template-columns: 2.2fr 1fr;
+  column-gap: 1.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#tab-2-content .tab-2-content-bottom {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* --------------------- tab-3-content --------------------- */
+#tab-3-content .text-center {
+  display: grid;
+  grid-template-columns: 2.2fr 1fr;
+  column-gap: 1.8rem;
+  align-items: center;
+  justify-content: center;
+}
+.table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.table thead tr td {
+  text-transform: uppercase;
+  padding: 0.8rem;
+  text-align: center;
+}
+.table tbody tr td {
+  color: #999;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+}
+.table tbody tr td:first-child {
+  text-align: left;
+}
+.table tbody tr:nth-child(odd) {
+  background: #222;
+}
+
+/* ------------------------Footer ------------------------- */
+
+.footer {
+  max-width: 75%;
+  margin: 1rem auto;
+  overflow: auto;
+}
+.footer,
+.footer a {
+  color: #999;
+  font-size: 0.9rem;
+}
+.footer p {
+  margin-bottom: 1.5rem;
+}
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+}
+.footer li {
+  line-height: 1.9;
+}
+/* --------------------- Text Styling --------------------- */
+.text-xl {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.text-lg {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.text-md {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.text-center {
+  text-align: center;
+}
+.dark-text {
+  color: #999;
+}
 /* --------------------- Buttons --------------------- */
 
 .btn {
