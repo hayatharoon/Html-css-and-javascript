@@ -1,6 +1,11 @@
 # Html-css-and-javascript All Projects:
 
-# Project #01: **Netflix Clone - FrontEnd Project**
+# Projects:
+
+- [**Netflix Clone**](#-Project-01)
+- [**Project2**](#-Project-02)
+
+# Project-01: **Netflix Clone - FrontEnd Project**
 
 I create the Netflix landing page using HTML, CSS and JavaScript for the tabs. And use modern CSS3+ techniques like Grid, Flex, overlays, shadows, etc.
 
@@ -28,8 +33,9 @@ The things that I learned during completing this project is:
 
 ![Website View](</netflix_clone/images/Screenshot%20(1).png>)
 
-## 🔗 **Links:**
+## Project-02:
 
+## 🔗 **Links:**
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/haroon-hayat-24b253204/)
 
@@ -39,7 +45,7 @@ The things that I learned during completing this project is:
 
 ## Authors
 
-**Twitter:**  [@haronhayat](https://twitter.com/haron_hayat)
+**Twitter:** [@haronhayat](https://twitter.com/haron_hayat)
 
 **Linkedin:** [Haroon Hayat](https://www.linkedin.com/in/haroon-hayat-24b253204/)
 
