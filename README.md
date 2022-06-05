@@ -2,8 +2,8 @@
 
 # Projects:
 
-- [**Netflix Clone**](#-Project-01)
-- [**Project2**](#-Project-02)
+- [**Netflix Clone**](#Project-01)
+- [**Project2**](#Project-02)
 
 # Project-01: **Netflix Clone - FrontEnd Project**
 
