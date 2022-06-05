@@ -25,14 +25,6 @@ The things that I learned during completing this project is:
 
 ![Website View](</netflix_clone/images/Screenshot%20(3).png>)
 
-## Screenshots 3
-
-![Website View](</netflix_clone/images/Screenshot%20(4).png>)
-
-## Screenshots 4
-
-![Website View](</netflix_clone/images/Screenshot%20(1).png>)
-
 ## Project-02:
 
 ## 🔗 **Links:**
