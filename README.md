@@ -3,7 +3,8 @@
 # Projects:
 
 - [**Netflix Clone**](#Project-01)
-- [**Project2**](#Project-02)
+- [**Random Password Generator**](#Project-02)
+- [**Drag & Drop API Project**](#Project-03)
 
 # Project-01: **Netflix Clone - FrontEnd Project**
 
@@ -25,7 +26,46 @@ The things that I learned during completing this project is:
 
 ![Website View](</netflix_clone/images/Screenshot%20(3).png>)
 
-## Project-02:
+---
+
+---
+
+## Random Password Generator:
+
+In this HTML, CSS and Javascript project I create Random Password Generator which generate strong and unique password automatically. I used HTML5 and CSS3 to design the view of this project. And also used some javascript. This project is Javascipt heavy project which used:
+
+- addEventListener() fucntion
+- DOM Manipulation
+- Random Number and Random Character genarator functions.
+- and some Arrow functions.
+
+![Website View](/password_Generator/images/website_view.png)
+
+---
+
+---
+
+# Project-03: **Drag & Drop API Project:**
+
+HTML Drag and Drop interfaces enable applications to use drag-and-drop features in browsers.
+The user may select draggable elements with a mouse, drag those elements to a droppable element, and drop them by releasing the mouse button.
+I create this project with Top 10 Best Batsman in T20 format which are randomly occurs and we can drag and drop them to it's correct position. And them check the order. If the item is on right position it will show in Green color else it will shown in Red Color.
+
+I used HTML5, CSS3 and Javascript in this Project.
+In Javascript I used high order function such as:
+
+- Map function
+- reduce function
+
+And also used:
+
+- sort function
+- forEach function
+- DOM Manipulation
+- Arrow Functions
+- Object Destructuring (ES6 Feature)
+
+![Website View](/drag_and_drop/images/draganddrop.png)
 
 ## 🔗 **Links:**
 
